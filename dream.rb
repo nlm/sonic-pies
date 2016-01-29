@@ -62,8 +62,8 @@ live_loop :test2 do
     with_fx :reverb do
       with_fx :level, amp: 1.9 do
         if (ring 0, 1, 0, 0).tick
-          play :a4
-          play :f4
+          play :b4
+          play :e4
         end
       end
     end
